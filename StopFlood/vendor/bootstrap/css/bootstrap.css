@@ -33,6 +33,7 @@ progress,
 video {
   display: inline-block;
   vertical-align: baseline;
+  margin-top: 200;
 }
 audio:not([controls]) {
   display: none;
@@ -1586,6 +1587,8 @@ pre code {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+  padding-top:15px;
+  padding-bottom:15px;
 }
 @media (min-width: 768px) {
   .container {
@@ -4273,9 +4276,10 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-brand {
   float: left;
-  height: 50px;
+  height: 60px;
+  width: 170px;
   padding: 15px 15px;
-  font-size: 10px;
+  font-size: 15px;
   line-height: 20px;
 }
 .navbar-brand:hover,
@@ -4284,6 +4288,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-brand > img {
   display: block;
+   height: 40px;
+  width: 170px;
 }
 @media (min-width: 768px) {
   .navbar > .container .navbar-brand,
